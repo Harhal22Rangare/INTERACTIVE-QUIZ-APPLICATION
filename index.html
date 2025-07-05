@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Master</title>
+
+  <!-- Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sanchez:ital@0;1&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+   <!-- Main CSS File -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <!-- Start Screen: Shown before quiz begins -->
+    <div id="start-screen">
+      <h1>🎓 Quiz Master</h1>
+      <p>Test your knowledge across 10 categories!</p>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Container: Main quiz interface, hidden by default -->
+    <div id="quiz-container" class="hidden">
+      <div id="loader" class="hidden">Loading next question...</div>
+      <div id="timer">Time: <span id="time-left">10</span>s</div>
+      <h2 id="question">Question here</h2>
+      <div id="options"></div>
+      <div id="feedback"></div>
+      <div id="score">Score: 0</div>
+      <button id="next-btn" class="hidden">Next</button>
+    </div>
+
+    <!-- End Screen: Shown after quiz is completed -->
+    <div id="end-screen" class="hidden">
+      <h2>🎉 Quiz Completed!</h2>
+      <p id="final-score"></p>
+      <p id="badge"></p>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <!-- Audio elements for feedback sounds -->
+  <audio id="correct-sound" src="assets/music/correct.mp3"></audio>
+  <audio id="wrong-sound" src="assets/music/wrong.mp3"></audio>
+  <audio id="timeout-sound" src="assets/music/timeout.mp3"></audio>
+  <audio id="tick-sound" src="assets/music/tick.mp3" preload="auto"></audio>
+
+  <!-- Main JS File -->
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
