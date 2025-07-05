@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  color: #0e0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  color: #333;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+.option-btn {
+    color: black;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    background: #e7d9d9;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.option-btn:hover {
+  background: #dcdcdc;
+}
+
+#feedback {
+  margin-top: 15px;
+  font-weight: bold;
+  min-height: 24px;
+}
+
+#score {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#loader {
+  margin: 15px 0;
+  font-size: 18px;
+  animation: blink 1s infinite;
+}
+
+#timer {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ff004c;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
