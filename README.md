@@ -16,7 +16,7 @@ MENTOR: VAISHALI MAM
 📌 Project Overview:
 The Interactive Quiz Application is a dynamic and responsive web-based quiz platform developed using core frontend technologies—HTML5, CSS3, and JavaScript. It offers users an engaging way to test their knowledge across multiple categories, get instant feedback, and view real-time scoring—all wrapped in an elegant and responsive UI design. This project showcases both creativity and functionality, ideal for educational, professional, and entertainment purposes.
 
-🛠️ Tools & Technologies Used:
+## 🛠️ Tools & Technologies Used:
 1. HTML5: For structuring the content, organizing quiz screens (Start, Quiz, Result), and embedding semantic elements.
 2. CSS3: For designing a clean, modern, and fully responsive user interface with animations, hover effects, and mobile-friendly layouts.
 3. JavaScript (Vanilla): Handles core logic like:
@@ -32,7 +32,7 @@ The Interactive Quiz Application is a dynamic and responsive web-based quiz plat
    * Git Integration
    * Extensions for enhanced productivity
 
-💻 Platform Compatibility:
+## 💻 Platform Compatibility:
 Development Environment: Windows OS + VS Code
 Deployment Compatibility: The application runs smoothly on all major platforms:
    * Windows
@@ -41,7 +41,7 @@ Deployment Compatibility: The application runs smoothly on all major platforms:
    * Mobile & Tablets
    * Browsers Supported: Chrome, Firefox, Edge, Safari, Brave, etc.
 
-🌍 Real-World Applicability:
+## 🌍 Real-World Applicability:
    This versatile application can be used in a wide range of settings:
    🏫 Educational Institutions:
    For conducting online exams, student assessments, or general knowledge quizzes.
@@ -88,5 +88,11 @@ The clean and modular codebase allows easy customization:
     * Start Quiz:
     Begin the quiz, answer questions, and track your score!
 
-🎯 Conclusion:
+## 🎯 Conclusion:
 This Interactive Quiz App is a powerful demonstration of frontend development skills, showcasing the practical application of JavaScript logic, UI/UX design, and clean code practices. Whether you're a teacher, recruiter, or just a quiz lover—this app delivers fun, functionality, and flexibility in one interactive experience!
+
+## OUTPUT:
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2adceaef-3eb6-4c14-a7fd-9e15f2e32ad0" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8fe4436d-9d78-4ed5-81bb-75997eeaa844" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ed7bfd44-1f63-4673-83d4-959a17c58dc0" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8c5f6fb2-7513-4727-9571-fd8d2f23104d" />
