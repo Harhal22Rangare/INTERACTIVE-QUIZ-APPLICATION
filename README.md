@@ -12,6 +12,8 @@ DURATION: 8 WEEKS
 
 MENTOR: VAISHALI MAM
 
+TASK 1:
+
 ## 📚 Project Title: Interactive Quiz Application
 📌 Project Overview:
 The Interactive Quiz Application is a dynamic and responsive web-based quiz platform developed using core frontend technologies—HTML5, CSS3, and JavaScript. It offers users an engaging way to test their knowledge across multiple categories, get instant feedback, and view real-time scoring—all wrapped in an elegant and responsive UI design. This project showcases both creativity and functionality, ideal for educational, professional, and entertainment purposes.
