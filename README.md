@@ -94,7 +94,4 @@ The clean and modular codebase allows easy customization:
 This Interactive Quiz App is a powerful demonstration of frontend development skills, showcasing the practical application of JavaScript logic, UI/UX design, and clean code practices. Whether you're a teacher, recruiter, or just a quiz lover—this app delivers fun, functionality, and flexibility in one interactive experience!
 
 ## OUTPUT:
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2adceaef-3eb6-4c14-a7fd-9e15f2e32ad0" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8fe4436d-9d78-4ed5-81bb-75997eeaa844" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ed7bfd44-1f63-4673-83d4-959a17c58dc0" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8c5f6fb2-7513-4727-9571-fd8d2f23104d" />
+![Image](https://github.com/user-attachments/assets/5f6bad81-1ca7-4404-8d88-946855d2782d)
